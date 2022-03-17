@@ -1,0 +1,272 @@
+body {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif !important;
+}
+
+.nav-bar .container {
+    width: 1170px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container {
+    width: 1170px;
+    margin: 0 auto;
+}
+
+.logo {
+    font-weight: 700;
+    font-size: 25px;
+    text-decoration: none;
+}
+
+.logo:visited {
+    color: #000;
+}
+
+.menu__link:hover {
+    text-decoration: underline;
+}
+
+.menu {
+    display: flex;
+}
+
+.menu__link {
+    font-size: 20px;
+    color: #000;
+    text-decoration: none;
+}
+
+.menu__link:visited {
+    color: #000;
+}
+
+ul {
+    padding: 0;
+    margin: 0 15px;
+    font-weight: 500;
+}
+
+header {
+    background: url('/img/bg_1.png') center center/cover no-repeat;
+    min-width: 100%;
+}
+
+.nav-bar {
+    background: #FFF;
+    display: flex;
+    padding: 44.7px 0;
+}
+
+.description .title, .description .subtitle {
+    color: #FFF;
+    text-align: center;
+}
+
+.btn__link:visited {
+    color: #FFF;
+}
+
+.description .title {
+    font-size: 60px;
+    margin-top: 182px;
+    margin-bottom: 20px;
+    letter-spacing: 3px;
+}
+
+.description .subtitle {
+    font-size: 22px;
+    margin-bottom: 105px;
+    letter-spacing: 1.1px;
+}
+
+.btn {
+    border: 3px solid;
+    border-color: #FFF;
+    background: none;
+    width: 220px;
+    height: 70px;
+    margin-bottom: 98px;
+}
+
+.btn:last-child {
+    margin-left: 25px;
+}
+
+.btn__link {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 700;
+    font-family: 'Roboto';
+}
+
+.btn:hover {
+    background: #00897b;
+    border-color: #00897b;
+    transition: background 1s, border-color 1s;
+}
+
+.description__buttons {
+    display: flex;
+    justify-content: center;
+}
+
+.description__icon {
+    display: flex;
+    justify-content: center;
+    height: 5px;
+    padding-bottom: 85px;
+}
+
+.fa-angle-down{
+    color: #FFF;
+}
+
+.about-us .subtitle, .about-us .title {
+    text-align: center;
+}
+
+.about-us .title {
+    font-size: 30px;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+
+.about-us .subtitle {
+    font-size: 15px;
+    margin-top: 36px;
+}
+
+.about-us__card {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 120px 57.5px 120px 57.5px;
+}
+
+.about-us__card .title {
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: 38px;
+    margin-bottom: 12.5px;
+}
+
+.about-us__card .subtitle {
+    font-size: 15px;
+    margin: 0;
+}
+
+.card__img {
+    margin: 0 auto;
+}
+
+.about-us__main {
+    display: flex;
+    justify-content: space-between;
+}
+
+.about-us {
+    margin-top: 125px;
+}
+
+.our-services {
+    background: #e4fdf9;
+    padding-top: 177px;
+}
+
+.our-services .title {
+    font-size: 30px;
+    font-weight: 700;
+    text-transform: capitalize;
+    margin-bottom: 15.5px;
+}
+
+.our-services .subtitle {
+    font-size: 15px;
+    margin-bottom: 112px;
+}
+
+.our-services .subtitle, .our-services .title {
+    text-align: center;
+}
+
+.row__card .title {
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.row__card .info {
+    font-size: 15px;
+    line-height: 25px;
+    text-align: center;
+}
+
+.card__btn {
+    background: none;
+    border: 2px solid #000;
+    width: 155px;
+    height: 55px;
+}
+
+.card__btn {
+    color: #000;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 20px;
+    margin: 44px auto 50px auto;
+}
+
+.row__card:hover{
+    background: #00897b;
+    color: #FFF;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.35);
+    transition: color 0.6s, background 1s;
+}
+
+.row__card:hover .card__btn {
+    border: 2px solid #FFF;
+    color: #FFF;
+    transition: color 0.6s, border 0.6s;
+}
+
+.row__card {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background: #FFF;
+    min-width: 370px;
+    margin-bottom: 31px;
+}
+
+.our-services__row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.our-services__row:last-child {
+    padding-bottom: 90px;
+}
+
+.row__card .card__img {
+    display: none;
+    margin: 58px auto 38px auto;
+}
+
+.card__img2 {
+    margin: 58px auto 38px auto;
+}
+
+.row__card:hover .card__img2 {
+    display: none;
+    transition: display 1s;
+}
+
+.row__card:hover .card__img {
+    display: block;
+    transition: display 2s;
+}
