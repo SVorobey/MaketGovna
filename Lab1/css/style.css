@@ -4,15 +4,13 @@ body {
 }
 
 .nav-bar .container {
-    width: 1170px;
+    width: 1180px;
     margin: 0 auto;
     display: flex;
-    justify-content: space-between;
-    align-items: center;
 }
 
 .container {
-    width: 1170px;
+    width: 1180px;
     margin: 0 auto;
 }
 
@@ -32,12 +30,42 @@ body {
 
 .menu {
     display: flex;
+    position: absolute;
+    width: 714px;
+    height: 29px;
+    left: 575px;
+    top: 43px;
 }
 
 .menu__link {
     font-size: 20px;
     color: #000;
     text-decoration: none;
+    letter-spacing: 1px;
+}
+
+.home {
+    margin-right: 44px;
+}
+
+.about {
+    margin-right: 39px;
+}
+
+.servicing {
+    margin-right: 39px;
+}
+
+.portfolio {
+    margin-right: 32px;
+}
+
+.blog {
+    margin-right: 39px;
+}
+
+.contact-us {
+    margin-right: 25px;
 }
 
 .menu__link:visited {
@@ -45,9 +73,15 @@ body {
 }
 
 ul {
-    padding: 0;
-    margin: 0 15px;
     font-weight: 500;
+}
+
+ul:first-child {
+    margin-left: 0;
+}
+
+ul:last-child {
+    margin-right: 0;
 }
 
 header {
@@ -58,7 +92,7 @@ header {
 .nav-bar {
     background: #FFF;
     display: flex;
-    padding: 44.7px 0;
+    padding: 39px 0 49px 0;
 }
 
 .description .title, .description .subtitle {
@@ -72,9 +106,9 @@ header {
 
 .description .title {
     font-size: 60px;
-    margin-top: 182px;
-    margin-bottom: 20px;
-    letter-spacing: 3px;
+    margin-top: 162px;
+    margin-bottom: 17px;
+    letter-spacing: 4px;
 }
 
 .description .subtitle {
@@ -89,11 +123,11 @@ header {
     background: none;
     width: 220px;
     height: 70px;
-    margin-bottom: 98px;
 }
 
 .btn:last-child {
     margin-left: 25px;
+    margin-right: 5px;
 }
 
 .btn__link {
@@ -101,7 +135,8 @@ header {
     text-transform: uppercase;
     font-size: 20px;
     font-weight: 700;
-    font-family: 'Roboto';
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 1px;
 }
 
 .btn:hover {
@@ -113,13 +148,14 @@ header {
 .description__buttons {
     display: flex;
     justify-content: center;
+    margin-bottom: 97px;
 }
 
 .description__icon {
     display: flex;
     justify-content: center;
     height: 5px;
-    padding-bottom: 85px;
+    padding-bottom: 95px;
 }
 
 .fa-angle-down{
@@ -134,25 +170,36 @@ header {
     font-size: 30px;
     font-weight: 700;
     text-transform: capitalize;
+    letter-spacing: 1.5px;
 }
 
 .about-us .subtitle {
     font-size: 15px;
-    margin-top: 36px;
+    margin-top: 23px;
+    line-height: 22px;
+    letter-spacing: 0.8px;
 }
 
 .about-us__card {
     display: flex;
     justify-content: center;
     flex-direction: column;
-    margin: 120px 57.5px 120px 57.5px;
+}
+
+.about-us__card:first-child {
+    margin-right: 142px;
+    margin-left: 57px;
+}
+
+.about-us__card:last-child {
+    margin-left: 144px;
 }
 
 .about-us__card .title {
     font-size: 20px;
     font-weight: 500;
-    margin-top: 38px;
-    margin-bottom: 12.5px;
+    margin-top: 27px;
+    margin-bottom: 15px;
 }
 
 .about-us__card .subtitle {
@@ -166,28 +213,34 @@ header {
 
 .about-us__main {
     display: flex;
-    justify-content: space-between;
+    
+    margin-top: 121px;
 }
 
 .about-us {
-    margin-top: 125px;
+    margin-top: 116px;
+    margin-bottom: 125.5px;
+    background: #FFF;
 }
 
 .our-services {
     background: #e4fdf9;
-    padding-top: 177px;
+    padding-top: 164px;
+    padding-bottom: 90px;
 }
 
 .our-services .title {
     font-size: 30px;
     font-weight: 700;
     text-transform: capitalize;
-    margin-bottom: 15.5px;
+    margin-bottom: 23px;
+    letter-spacing: 1.5px;
 }
 
 .our-services .subtitle {
     font-size: 15px;
     margin-bottom: 112px;
+    letter-spacing: 0.75px;
 }
 
 .our-services .subtitle, .our-services .title {
@@ -197,26 +250,27 @@ header {
 .row__card .title {
     font-size: 20px;
     font-weight: 500;
-    margin-bottom: 10px;
+    margin-bottom: 13px;
+    letter-spacing: 1.5px;
 }
 
 .row__card .info {
     font-size: 15px;
     line-height: 25px;
     text-align: center;
+    letter-spacing: 0.75px;
 }
 
 .card__btn {
+    font-family: 'Open Sans', sans-serif;
     background: none;
     border: 2px solid #000;
-    width: 155px;
+    width: 150px;
     height: 55px;
-}
-
-.card__btn {
+    padding: 0;
     color: #000;
     text-transform: uppercase;
-    font-weight: 700;
+    font-weight: 500;
     font-size: 20px;
     margin: 44px auto 50px auto;
 }
@@ -248,17 +302,13 @@ header {
     justify-content: space-between;
 }
 
-.our-services__row:last-child {
-    padding-bottom: 90px;
-}
-
 .row__card .card__img {
     display: none;
-    margin: 58px auto 38px auto;
+    margin: 58px auto 27px auto;
 }
 
 .card__img2 {
-    margin: 58px auto 38px auto;
+    margin: 58px auto 27px auto;
 }
 
 .row__card:hover .card__img2 {
@@ -269,4 +319,167 @@ header {
 .row__card:hover .card__img {
     display: block;
     transition: display 2s;
+}
+
+.latest-works .title, .latest-works .subtitle {
+    text-align: center;
+}
+
+.latest-works .title {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 22px;
+    letter-spacing: 1.5px;
+    margin-top: 126px;
+    margin-bottom: 30px;
+    text-transform: capitalize;
+}
+
+.latest-works .subtitle {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 22px;
+    letter-spacing: 0.75px;
+}
+
+.latest-works__btn {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 22px;
+    letter-spacing: 1px;
+    color: #000;
+    border: 2px solid #00897B;
+    text-transform: uppercase;
+    background: none;
+    padding: 0;
+    margin-right: 15px;
+}
+
+.latest-works__btn:first-child {
+    margin-right: 20px;
+}
+
+.latest-works__btn:last-child {
+    margin-right: 0;
+}
+
+
+.all {
+    width: 100px;
+    height: 55px;
+}
+
+.ui {
+    width: 179px;
+    height: 55px;
+}
+
+.all:hover, .ui:hover {
+    background: #00897B;
+    color: #FFF;
+    transition: background 0.6s, color 0.6s;
+}
+
+.latest-works__buttons {
+    display: flex;
+    justify-content: center;
+    margin-top: 112px;
+    letter-spacing: 1px;
+}
+
+.gallery-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 35px;
+}
+
+.gallery__card {
+    width: 370px;
+    height: 370px;
+    color: #FFF;
+    text-align: center;
+    padding-top: 144px;
+    
+}
+
+.gallery-row:last-child {
+    margin: 0;
+}
+
+.watch {
+    background: #000;
+    background: url('/img/hand-watch.png') center center/cover no-repeat;
+}
+
+.pass {
+    background: url('/img/one-day-pass.png') center center/cover no-repeat;
+}
+
+.t-shirt {
+    background: url('/img/packeti.png') center center/cover no-repeat;
+}
+
+.flyaga {
+    background: url('/img/flyaga.png') center center/cover no-repeat;
+}
+
+.bottle {
+    background: url('/img/wine.png') center center/cover no-repeat;
+}
+
+.bag {
+    background: url('/img/bag.png') center center/cover no-repeat;
+}
+
+.watch .title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 22px;
+    letter-spacing: 1px;
+    margin: 0 0 3px 0;
+    text-transform: capitalize;
+}
+
+.watch .subtitle {
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 22px;
+    letter-spacing: 0.75px;
+}
+
+.latest-works__gallery {
+    margin-top: 119px;
+    margin-bottom: 125px;
+}
+
+.gallery-btn  .button{
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    line-height: 22px;
+    font-weight: 700;
+    width: 220px;
+    height: 70px;
+    color: #000;
+    border: 2px solid #00897b;
+    background: none;
+    text-transform: uppercase;
+    padding: 0;
+    letter-spacing: 1.1px;
+}
+
+.gallery-btn {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 136px;
+}
+
+.gallery-btn  .button:hover {
+    background: #00897b;
+    color: #FFF;
+    transition: color 0.6s, background 0.6s;
+}
+
+.pricing-plan {
+    background: #000;
 }
