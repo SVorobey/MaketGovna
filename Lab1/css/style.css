@@ -187,12 +187,12 @@ header {
 }
 
 .about-us__card:first-child {
-    margin-right: 142px;
+    margin-right: 160px;
     margin-left: 57px;
 }
 
 .about-us__card:last-child {
-    margin-left: 144px;
+    margin-left: 160px;
 }
 
 .about-us__card .title {
@@ -399,7 +399,7 @@ header {
     height: 370px;
     color: #FFF;
     text-align: center;
-    padding-top: 144px;
+    padding-top: 145px;
     
 }
 
@@ -408,7 +408,6 @@ header {
 }
 
 .watch {
-    background: #000;
     background: url('/img/hand-watch.png') center center/cover no-repeat;
 }
 
@@ -481,5 +480,359 @@ header {
 }
 
 .pricing-plan {
-    background: #000;
+    background: #f0f1f1;
+}
+
+.pricing-plan .title {
+    font-size: 30px;
+    font-weight: 700;
+    text-transform: capitalize;
+    padding-top: 118px;
+    margin-bottom: 23px;
+    letter-spacing: 1.5px;
+}
+
+.pricing-plan .subtitle {
+    font-size: 15px;
+    margin-bottom: 126px;
+    letter-spacing: 0.75px;
+}
+
+.pricing-plan .subtitle, .pricing-plan .title {
+    text-align: center;
+}
+
+.pricing-row {
+    display: flex;
+    background: #f0f1f1;
+    justify-content: space-between;
+    padding-bottom: 125px;
+}
+
+.pricing-row__card {
+    width: 370px;
+    height: 667px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background: #FFF;
+}
+
+hr {
+    width: 178px;
+    margin-top: 6.5px;
+    margin-bottom: 37px;
+}
+
+.name {
+    font-family: 'SansSerif';
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 22px;
+    letter-spacing: 1.25px;
+    text-transform: capitalize;
+    margin: 48px 0 39px 0;
+    z-index: 1;
+    color: #FFF;
+}
+
+.price {
+    font-size: 50px;
+    line-height: 22px;
+    letter-spacing: 2.5px;
+    margin-bottom: 115px;
+    z-index: 1;
+    color: #FFF;
+}
+
+.price span {
+    font-size: 17px;
+    line-height: 22px;
+    letter-spacing: 0.85px;
+}
+
+.card__description {
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 22px;
+    letter-spacing: 0.85px;
+    text-transform: capitalize;
+}
+
+.price__btn {
+    width: 180px;
+    height: 60px;
+    border: 2px solid #000000;
+    background: none;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 22px;
+    color: #000;
+    text-transform: uppercase;
+    margin-top: 29px;
+    padding: 0;
+}
+
+#rectangle {
+    width: 370px;
+    height: 178px;
+    position: absolute;
+    top: 4827px;
+    z-index: 0;
+    background: #3949ab;
+}
+
+#triangle-topleft {
+    width: 0;
+    height: 0;
+    border-top: 31px solid #3949ab;
+    border-right: 370px solid transparent;
+    position: absolute;
+    top: 5004px;
+    z-index: 0;
+}
+
+.pricing-row__card:hover {
+    box-shadow: 0px 3px 25px rgba(0, 0, 0, 0.35);
+    transition: box-shadow 0.5s;
+}
+
+.price__btn:hover {
+    color: #FFF;
+    border: 2px solid #00897b;
+    background: #00897b;
+    transition: color 0.6s, border 0.6s, background 0.6s;
+}
+
+.team__card img {
+    border-radius: 10px;
+}
+
+.team__icons {
+    display: flex;
+}
+
+i {
+    color: #00897b;
+}
+
+.link__ico {
+    border: 2px solid #f0f1f1;
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.team__row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.team .title {
+    font-size: 30px;
+    font-weight: 700;
+    text-transform: capitalize;
+    padding-top: 118px;
+    margin-bottom: 36px;
+    letter-spacing: 1.5px;
+}
+
+.team .subtitle {
+    font-size: 15px;
+    margin-bottom: 124px;
+    letter-spacing: 0.75px;
+}
+
+.team .subtitle, .team .title {
+    text-align: center;
+}
+
+.team__name {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 22px;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+    margin-top: 38px;
+    margin-bottom: 6.5px;
+}
+
+.team__post {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 22px;
+    letter-spacing: 0.75px;
+    text-transform: capitalize;
+    margin-bottom: 26.5px;
+}
+
+.team__card {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.team__icons {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 126px;
+}
+
+.team__icons-link {
+    text-decoration: none;
+}
+
+.link__ico:hover {
+    background: #3949ab;
+    transition: background 0.6s;
+}
+
+.link__ico:hover > .fa-xl {
+    color: #FFF;
+    transition: color 0.6s;
+}
+
+.circle {
+    height: 15px;
+    width: 15px;
+    border-radius: 100%;
+    background: #00897b;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.circle:last-child {
+    margin-right: 0;
+}
+
+.team__circles {
+    display: flex;
+    justify-content: center;
+}
+
+.circle:hover {
+    background: #3949ab;
+}
+
+.team {
+    padding-bottom: 124px;
+}
+
+.blog__row {
+    display: flex;
+}
+
+.row__date-category {
+    display: flex;
+    margin-bottom: 32px;
+}
+
+.blogg {
+    background: #e4fdf9;
+}
+
+.blogg .title {
+    font-size: 30px;
+    font-weight: 700;
+    text-transform: capitalize;
+    padding-top: 133px;
+    margin-bottom: 29px;
+    letter-spacing: 1.5px;
+}
+
+.blogg .subtitle {
+    font-size: 15px;
+    margin-bottom: 125px;
+    letter-spacing: 0.75px;
+}
+
+.blogg .subtitle, .blogg .title {
+    text-align: center;
+}
+
+.row__right {
+    margin-left: 30px;
+}
+
+.row__title {
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 22px;
+    letter-spacing: 1.25px;
+    text-transform: capitalize;
+    margin-top: 60px;
+    margin-bottom: 28px;
+}
+
+.date, .category {
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 22px;
+    letter-spacing: 0.85px;
+}
+
+.fa-calendar-days, .fa-file {
+    margin-top: 10px;
+    margin-right: 13px;
+    color: #000;
+}
+
+.row__info {
+    font-size: 15px;
+    line-height: 22px;
+    letter-spacing: 0.75px;
+}
+
+.row__title a {
+    text-decoration: none;
+    color: #000;
+}
+
+.date {
+    margin-right: 40px;
+}
+
+.second-row {
+    margin-right: 165px;
+    width: 50%;
+}
+
+.row__title a:hover {
+    color: #00897b;
+    transition: color 0.6s;
+}
+
+.blogg__btn {
+    width: 220px;
+    height: 70px;
+    border: 2px solid #000000;
+    background: none;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 22px;
+    color: #000;
+    text-transform: uppercase;
+    padding: 0;
+}
+
+.blogg__btn:hover {
+    color: #FFF;
+    border: 2px solid #00897b;
+    background: #00897b;
+    transition: color 0.6s, border 0.6s, background 0.6s;
+}
+
+.blog__button {
+    margin-top: 123px;
+    padding-bottom: 125px;
+    display: flex;
+    justify-content: center;
+}
+
+.fa-magnifying-glass {
+    color: #000;
 }
