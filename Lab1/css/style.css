@@ -836,3 +836,145 @@ i {
 .fa-magnifying-glass {
     color: #000;
 }
+
+.contact_us {
+    background: url('../img/contact-us__bg.png') center center/cover no-repeat;
+}
+
+.contact_us .title {
+    font-size: 30px;
+    font-weight: 700;
+    text-transform: capitalize;
+    padding-top: 128px;
+    margin-bottom: 36px;
+    letter-spacing: 1.5px;
+}
+
+.contact_us .subtitle {
+    font-size: 15px;
+    margin-bottom: 101px;
+    letter-spacing: 0.75px;
+}
+
+.contact_us .subtitle, .contact_us .title {
+    text-align: center;
+    color: #FFF;
+}
+
+.col__ico {
+    height: 105px;
+    width: 105px;
+    border-radius: 100%;
+    background: #3949ab;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto 39px auto;
+}
+
+.col__text {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 28px;
+    letter-spacing: 1px;
+    color: #FFF;
+    text-align: center;
+}
+
+.contacts {
+    display: flex;
+    justify-content: space-between;
+}
+
+.col:last-child {
+    margin-right: 90px;
+}
+
+.col:first-child {
+    margin-left: 100px;
+}
+
+.contacts__form {
+    display: flex;
+    flex-direction: column;
+    margin-top: 79px;
+    margin-left: 70px;
+    padding-bottom: 112px;
+}
+
+.form__name, .form__email {
+    width: 500px;
+    height: 84px;
+    border-radius: 10px;
+    border: 20px solid #FFF;
+}
+
+.form__name {
+    margin-right: 31px;
+}
+
+input::placeholder, textarea::placeholder {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 28px;
+    letter-spacing: 1px;
+    color: #4d4d4d;
+}
+
+.form__name:focus, .form__email:focus, #form__message:focus {
+    border: 3px solid #00897b;
+    padding: 19px;
+}
+
+.form__name-email {
+    margin-bottom: 33px;
+}
+
+#form__message {
+    width: 1031px;
+    height: 323px;
+    border-radius: 10px;
+    border: 20px solid #FFF;
+    margin-bottom: 39px;
+    resize: none;
+    font-size: 25px;
+    outline: none;
+}
+
+.form__button {
+    width: 220px;
+    height: 70px;
+    border-radius: 10px;
+    text-transform: uppercase;
+    padding: 0;
+    font-family: "Roboto";
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 22px;
+    border: none;
+    text-align: center;
+    margin-left: 810px;
+    padding: 27.5px 68.5px;
+    color: #000;
+}
+
+input {
+    font-size: 25px;
+    outline: none;
+}
+
+.form__button:hover {
+    color: #FFF;
+    background: #00897b;
+    transition: color 0.6s, background 0.6s;
+}
+
+footer {
+    text-align: center;
+    font-family: "Roboto";
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 22px;
+    letter-spacing: 1px;
+    padding: 19px 0 22px 0;
+}
